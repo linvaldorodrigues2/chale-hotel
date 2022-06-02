@@ -7,6 +7,8 @@ body {
   font-family: Helvetica, sans-serif;
   background: url(../images/bg.png);
   margin: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 /*fortamatacao geral*/
@@ -104,4 +106,58 @@ ul {
 }
 #navegacao a:hover {
   background: #f6f6be;
+}
+
+#area-principal {
+  width: 50%;
+  padding: 15px 0;
+  background: url(../images/bg-area-principal.png) top left repeat-x;
+  float: left;
+}
+#area-principal .conteudo {
+  margin: 20px;
+}
+#area-principal h2 {
+  color: #7d7640;
+  font-size: 1em;
+  padding: 5px 0;
+}
+#area-principal p {
+  font-size: 0.9em;
+  margin: 10px 0;
+}
+#area-lateral {
+  width: 50%;
+  padding: 15px 0;
+  float: left;
+  background: url(../images/bg-area-lateral.png) top right repeat-x;
+}
+#area-lateral li {
+  padding: 8px;
+  border-bottom: 1px solid #f3efcb;
+  height: 6em;
+}
+#area-lateral li:hover {
+  background: #f6f3de;
+  cursor: pointer;
+}
+#area-lateral li a img {
+  width: 110px;
+  margin-right: 8px;
+  float: left;
+}
+#area-lateral li h2 {
+  font-size: 1.1em;
+  color: #615b2d;
+  padding: 5px 0;
+  background: url(../images/ornamento.png) no-repeat center right;
+}
+#area-lateral li p {
+  font-size: 0.8em;
+  color: #000;
+}
+#rodape{
+    padding: 16px;
+    background: url(../images/bg-rodape.png) repeat-x top;
+    color: #7d7640;
 }
