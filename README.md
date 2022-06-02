@@ -1,2 +1,2 @@
 # chale-hotel
-Projeto de Hotelria
+## Projeto de Hotelaria
